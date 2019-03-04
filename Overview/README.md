@@ -18,17 +18,17 @@ La première version de Docker a été publiée en mars 2013 et depuis lors, ell
 
 Docker a les composants suivants
 
-*Docker pour Mac - Il permet d’exécuter des conteneurs Docker sous Mac OS.
+* Docker pour Mac - Il permet d’exécuter des conteneurs Docker sous Mac OS.
 
-*Docker pour Linux - Il permet d’exécuter des conteneurs Docker sur le système d’exploitation Linux.
+* Docker pour Linux - Il permet d’exécuter des conteneurs Docker sur le système d’exploitation Linux.
 
-*Docker pour Windows - Il permet d’exécuter des conteneurs Docker sur le système d’exploitation Windows.
+* Docker pour Windows - Il permet d’exécuter des conteneurs Docker sur le système d’exploitation Windows.
 
-*Docker Engine - Il est utilisé pour créer des images Docker et créer des conteneurs Docker.
+* Docker Engine - Il est utilisé pour créer des images Docker et créer des conteneurs Docker.
 
-*Docker Hub - Il s'agit du registre utilisé pour héberger diverses images Docker.
+* Docker Hub - Il s'agit du registre utilisé pour héberger diverses images Docker.
 
-*Docker Compose - Ceci est utilisé pour définir des applications utilisant plusieurs conteneurs Docker.
+* Docker Compose - Ceci est utilisé pour définir des applications utilisant plusieurs conteneurs Docker.
 
 Nous discuterons de tous ces composants en détail dans les chapitres suivants.
 
