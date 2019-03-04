@@ -60,5 +60,92 @@ Dans la sortie ci-dessus, vous pouvez voir que le serveur a trois images: centos
 
 * Taille virtuelle - La taille de l'image.
 
+## Téléchargement d'images Docker
 
+Les images peuvent être téléchargées à partir de Docker Hub à l'aide de la commande d'exécution de Docker. Voyons en détail comment nous pouvons faire cela.
+
+##Syntaxe
+
+La syntaxe suivante est utilisée pour exécuter une commande dans un conteneur Docker.
+
+### docker run image 
+
+## Options
+
+* Image − This is the name of the image which is used to run the container.
+
+## Return Value
+La sortie exécutera la commande dans le conteneur souhaité.
+
+## Example
+
+sudo docker run centos
+
+Cette commande téléchargera l’image centos, si elle n’est pas déjà présente, et exécutera le système d’exploitation en tant que conteneur.
+
+## Output
+
+Lorsque nous exécutons la commande ci-dessus, nous obtiendrons le résultat suivant:
+
+![](2.jpg)
+
+You will now see the CentOS Docker image downloaded. Now, if we run the Docker images command to see the list of images on the system, we should be able to see the centos image as well.
+
+![](3.jpg)
+
+## Removing Docker Images
+
+Les images Docker du système peuvent être supprimées via la commande docker rmi. Voyons cette commande plus en détail.
+
+docker rmi
+
+Cette commande est utilisée pour supprimer les images Docker.
+
+## Syntax
+
+docker rmi ImageID
+
+## Options
+
+* ImageID - Ceci est l'ID de l'image à supprimer.
+
+## Return Value
+
+La sortie fournira l'ID d'image de l'image supprimée.
+
+sudo docker rmi 7a86f8ffcb25 
+
+## Output
+
+![](4.jpg)
+
+Voyons d’autres commandes Docker sur les images.
+
+docker images -q
+
+## Syntax
+
+docker images 
+
+* q − It tells the Docker command to return the Image ID’s only.
+
+## Valeur de retour
+
+La sortie ne montrera que l’ID d’image des images sur l’hôte Docker.
+
+## Exemple
+
+sudo docker images -q 
+
+![](5.jpg)
+
+## docker inspect
+
+Cette commande est utilisée pour voir les détails d'une image ou d'un conteneur.
+
+docker inspect Repository 
+
+sudo docker inspect jenkins 
+
+![](6.jpg)
 
