@@ -51,3 +51,4 @@ Les points suivants doivent être notés à propos de la commande ci-dessus -
 
 Nous aurons ensuite la sortie suivante. Et à la sortie, nous pouvons clairement voir que le conteneur Node s’exécutait en tant que conteneur et exécutait le script HelloWorld.js.
 
+![](6.jpg)
