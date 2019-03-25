@@ -29,8 +29,8 @@ Cela produira la phrase «Hello World» lorsque nous l'exécuterons via Node.js.
 
 Étape 5 - Pour exécuter notre script Node.js à l'aide du conteneur Node Docker, nous devons exécuter l'instruction suivante:
 
-``` sudo docker run –it –rm –name = HelloWorld –v “$PWD”:/usr/src/app 
-```  –w /usr/src/app node node HelloWorld.js
+```sudo docker run –it –rm –name = HelloWorld –v “$PWD”:/usr/src/app 
+```–w /usr/src/app node node HelloWorld.js
 
 
 Les points suivants doivent être notés à propos de la commande ci-dessus -
@@ -51,5 +51,3 @@ Les points suivants doivent être notés à propos de la commande ci-dessus -
 
 Nous aurons ensuite la sortie suivante. Et à la sortie, nous pouvons clairement voir que le conteneur Node s’exécutait en tant que conteneur et exécutait le script HelloWorld.js.
 
-
-![](5.jpg)
