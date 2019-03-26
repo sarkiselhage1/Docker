@@ -20,8 +20,8 @@
 * [Docker - Networking](Docker - Networking)
 * [Setting Node](Setting Node)
 * [Docker - Setting MongoDB](Docker - Setting MongoDB)
-* [Docker - Logging](Docker - Logging)
-* [Docker - Compose](Docker - Compose)
+* [Logging](Logging)
+* [Compose](Compose)
 
 # Authors
 
