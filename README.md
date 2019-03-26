@@ -18,7 +18,7 @@
 * [Docker - Instruction Commands](Docker - Instruction Commands)
 * [Storage Drivers](Storage Drivers)
 * [Docker - Networking](Docker - Networking)
-* [Docker - Setting Node.js](Docker - Setting Node.js)
+* [Setting Node](Setting Node)
 * [Docker - Setting MongoDB](Docker - Setting MongoDB)
 * [Docker - Logging](Docker - Logging)
 * [Docker - Compose](Docker - Compose)
