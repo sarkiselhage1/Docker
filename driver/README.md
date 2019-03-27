@@ -50,7 +50,7 @@ Pour voir le pilote de stockage utilisé, lancez la commande docker info.
 
 ##Syntaxe
 
-``` docker info 
+docker info 
 
 ## Les options
 None
@@ -60,7 +60,7 @@ None
 La commande fournira toutes les informations relatives au composant Docker installé sur l'hôte Docker.
 ## Exemple
 
-``` sudo docker info 
+sudo docker info 
 
 ## Output
 
@@ -77,7 +77,7 @@ Dans Docker, vous disposez d'un volume séparé pouvant être partagé entre plu
 
 Regardons notre conteneur Jenkins. Faisons un docker inspecter pour voir les détails de cette image. Nous pouvons émettre la commande suivante pour écrire le résultat de la commande docker inspect dans un fichier texte, puis afficher le fichier en conséquence.
 
-``` sudo docker inspect Jenkins > tmp.txt
+sudo docker inspect Jenkins > tmp.txt
 
 Lorsque vous affichez le fichier texte à l'aide de la commande more, vous verrez une entrée sous la forme JENKINS_HOME = / var / Jenkins_home.
 
@@ -86,7 +86,7 @@ Il s'agit du mappage effectué dans le conteneur via l'image Jenkins.
 
 Supposons maintenant que vous vouliez mapper le volume du conteneur sur un volume local, puis vous devez spécifier l'option –v lors du lancement du conteneur. Un exemple est montré ci-dessous -
 
-``` sudo docker run –d –v /home/demo:/var/jenkins_home –p 8080:8080 –p 50000:50000 jenkins 
+sudo docker run –d –v /home/demo:/var/jenkins_home –p 8080:8080 –p 50000:50000 jenkins 
 
 L'option –v est utilisée pour mapper le volume dans le conteneur / var / jenkins_home vers un emplacement de notre hôte Docker qui est / home / demo.
 ![](4.jpg)
