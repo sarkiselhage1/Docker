@@ -8,7 +8,7 @@ Nous allons maintenant voir les différentes étapes pour obtenir le conteneur D
 
 Étape 2 - Vous verrez que la commande d'extraction Docker pour Mongo figure dans les détails du référentiel de Docker Hub.
 
-![](2.jpeg)
+![](2.jpg)
 
 Étape 3 - Sur l’hôte Docker, utilisez la commande Docker comme indiqué ci-dessus pour télécharger la dernière image Mongo à partir de Docker Hub.
 
