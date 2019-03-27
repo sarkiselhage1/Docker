@@ -31,11 +31,13 @@ En savoir plus sur cette commande inspect.
 Cette méthode permet de renvoyer des informations de bas niveau sur le conteneur ou l'image.
 
 ## Syntaxe
+
 docker inspecter conteneur / image
 
 ## Exemple:
 
 sudo docker inspect jenkins 
+
 ![](6.jpg) 
 
 La sortie de la commande inspecte donne une sortie JSON. Si nous observons la sortie, nous pouvons voir qu’il existe une section de "ExposedPorts" et voir que deux ports sont mentionnés. L'un est le port de données de 8080 et l'autre est le port de contrôle de 50000.
