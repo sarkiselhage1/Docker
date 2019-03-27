@@ -34,13 +34,13 @@ Maintenant que les détails du fichier ont été entrés, enregistrez simplement
 
 Étape 2 - Exécutez la commande de compilation Docker pour générer le fichier Docker. Cela peut être fait en utilisant la commande suivante -
 
-```sudo docker build –t = ”mywebserver”.
+sudo docker build –t = ”mywebserver”.
 Nous étiquetons notre image en tant que mywebserver. Une fois l'image créée, vous recevrez un message indiquant que le fichier a été créé.
 
 ![](2.jpeg)
 Étape 3 - Le fichier du serveur Web étant maintenant créé, il est maintenant temps de créer un conteneur à partir de l'image. Nous pouvons le faire avec la commande d'exécution Docker.
 
-```sudo docker run –d –p 80:80 mywebserver 
+sudo docker run –d –p 80:80 mywebserver 
 ![](3.jpeg)
 
 Les points suivants doivent être notés à propos de la commande ci-dessus -
