@@ -2,7 +2,7 @@
 
 Etape 1:
 Utilisez la commande d'exécution Docker pour télécharger le registre privé. Cela peut être fait en utilisant la commande suivante.
-```sudo docker run –d –p 5000:5000 –-name registry registry:2
+sudo docker run –d –p 5000:5000 –-name registry registry:2
 Les points suivants doivent être notés à propos de la commande ci-dessus -
 
 * Registry est le conteneur géré par Docker qui peut être utilisé pour héberger des référentiels privés.
@@ -20,7 +20,7 @@ Nous avons maintenant confirmé que le conteneur de registre est effectivement e
 
 Étape 3 - Lançons l’étiquetage de l’une de nos images existantes afin de pouvoir la transférer dans notre référentiel local. Dans notre exemple, comme l’image centos est disponible localement, nous allons l’ajouter à notre référentiel privé et ajouter un nom d’étiquette centos.
 
-```sudo docker tag 67591570dd29 localhost:5000/centos 
+sudo docker tag 67591570dd29 localhost:5000/centos 
 
 Les points suivants doivent être notés à propos de la commande ci-dessus -
 
@@ -42,14 +42,14 @@ Ici, nous transférons l’image centos vers le référentiel privé hébergé s
 Étape 5 - Supprimons maintenant les images locales que nous avons pour centos à l’aide des commandes docker rmi. Nous pouvons ensuite télécharger l'image centos requise depuis notre référentiel privé.
 
 
-```sudo docker rmi centos:latest 
-```sudo docker rmi 67591570dd29
+sudo docker rmi centos:latest 
+sudo docker rmi 67591570dd29
 
 ![](5.jpg)
 
 Étape 6 - Maintenant que nous n’avons aucune image centos sur notre ordinateur local, nous pouvons maintenant utiliser la commande suivante Docker pull pour extraire l’image centos de notre référentiel privé.
 
-```sudo docker pull localhost: 5000 / centos
+sudo docker pull localhost: 5000 / centos
 Ici, nous extrayons l’image centos dans le référentiel privé hébergé sur localhost: 5000.
 
 
