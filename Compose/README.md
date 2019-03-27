@@ -26,7 +26,8 @@ docker-compose version
 
 Continuons maintenant et créons notre premier fichier Docker Compose. Tous les fichiers Docker Compose sont des fichiers YAML. Vous pouvez en créer un en utilisant l'éditeur vim. Alors exécutez la commande suivante pour créer le fichier de composition -
 
-sudo vim docker-compose.yml 
+'''sudo vim docker-compose.yml
+ 
 ![](3.jpg)
 
 Examinons de près les différents détails de ce fichier -
