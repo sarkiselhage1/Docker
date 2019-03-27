@@ -4,23 +4,23 @@ Docker prend en charge les aspects de mise en réseau afin que les conteneurs pu
 
 C'est un pont entre l'hôte Docker et l'hôte Linux. Voyons maintenant quelques commandes associées à la mise en réseau dans Docker.
 
-## Liste de tous les réseaux Docker
+##Liste de tous les réseaux Docker
 
 Cette commande peut être utilisée pour répertorier tous les réseaux associés à Docker sur l'hôte.
 
-## Syntaxe
+##Syntaxe
 
 ``` docker network ls 
 
-## Options	
+##Options	
 
 None
 
-## Valeur de retour
+##Valeur de retour
 
 La commande affichera tous les réseaux sur l'hôte Docker.
 
-## Exemple
+##Exemple
 
 ``` sudo docker network ls
 
@@ -28,7 +28,7 @@ sortie
 
 ![](2.jpg)
 
-# Inspection d'un réseau Docker
+#Inspection d'un réseau Docker
 
 ``` sudo docker network inspect bridge 
 
@@ -41,11 +41,11 @@ Exécutons maintenant un conteneur et voyons ce qui se passe lorsque nous inspec
 
 Maintenant, si nous inspectons notre nom de réseau via la commande suivante, vous verrez maintenant que le conteneur est attaché au pont.
 
-``` sudo docker network inspect bridge
+ sudo docker network inspect bridge
 
 ![](5.jpg)
 
-# Créer votre propre nouveau réseau
+#Créer votre propre nouveau réseau
 
 ``` docker network create –-driver drivername name 
 
