@@ -10,7 +10,9 @@ sudo docker run –it centos /bin/bash
 ![](1.jpg)
 
 Vous exécuterez ensuite l'instance du système CentOS sur le serveur Ubuntu.
+
 ## Listing of Containers
+
 Vous pouvez répertorier tous les conteneurs de la machine via la commande docker ps. Cette commande est utilisée pour renvoyer les conteneurs en cours d'exécution.
 
 docker ps
@@ -20,12 +22,15 @@ docker ps
 docker ps 
 
 ## Les options
+
 Aucun
 
 ## Valeur de retour
+
 La sortie affichera les conteneurs en cours d'exécution.
 
 ## Exemple
+
 sudo docker ps
 
 ## Output
@@ -35,6 +40,7 @@ sudo docker ps
 docker ps -a
 
 Syntax
+
 docker ps -a 
 
 sudo docker ps -a 

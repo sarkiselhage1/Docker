@@ -14,7 +14,8 @@ Les étapes suivantes expliquent comment créer un fichier Docker.
 
 Étape 2 - Construisez votre fichier Docker en utilisant les instructions suivantes.
 
-#This is a sample Image 
+# This is a sample Image 
+
 FROM ubuntu 
 MAINTAINER demousr@gmail.com 
 
@@ -29,6 +30,7 @@ CMD [“echo”,”Image created”]
 * La commande suivante est la personne qui va conserver cette image. Ici, vous spécifiez le mot clé MAINTAINER et ne mentionnez que l'ID de messagerie.
 * La commande RUN est utilisée pour exécuter des instructions sur l'image. Dans notre cas, nous mettons d'abord à jour notre système Ubuntu, puis nous installons le serveur nginx sur notre image Ubuntu.
 * La dernière commande est utilisée pour afficher un message à l'utilisateur.
+
 ## Étape 3 - Enregistrez le fichier. Dans le prochain chapitre, nous verrons comment construire l’image.
 
 ![](3.jpg)

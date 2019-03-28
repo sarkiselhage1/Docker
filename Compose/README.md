@@ -5,6 +5,7 @@ Dans ce chapitre, nous verrons comment commencer à utiliser Docker Compose. Ens
 # Docker Compose ─ Installation
 
 Les étapes suivantes doivent être suivies pour que Docker Compose soit opérationnel.
+
 Étape 1 - Téléchargez les fichiers nécessaires à partir de github en utilisant la commande suivante -
 
 curl -L "https://github.com/docker/compose/releases/download/1.10.0-rc2/dockercompose
@@ -13,6 +14,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.10.0-rc2/dockerco
 La commande ci-dessus téléchargera la dernière version de Docker Compose qui, au moment de la rédaction de cet article, est 1.10.0-rc2. Il sera ensuite stocké dans le répertoire / home / demo /.
 
 ![](1.jpg)
+
 Étape 2 - Ensuite, nous devons fournir les privilèges d'exécution au fichier Docker Compose téléchargé, à l'aide de la commande suivante -
 
 chmod +x /home/demo/docker-compose

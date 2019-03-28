@@ -28,6 +28,7 @@ Dans notre exemple, nous allons télécharger le conteneur Jenkins à partir de 
 En savoir plus sur cette commande inspect.
 
 ## docker inspecter
+
 Cette méthode permet de renvoyer des informations de bas niveau sur le conteneur ou l'image.
 
 ## Syntaxe

@@ -9,11 +9,12 @@ Les derniers chapitres de ce didacticiel couvrent les aspects de développement 
 sur les environnements de développement à l'aide de Docker Containers.
 
 # Audience
+
 Ce tutoriel s'adresse à ceux qui souhaitent apprendre Docker en tant que service de conteneur. Ce produit s'est répandu comme une traînée de poudre dans l'industrie
 
- et a réellement un impact sur le développement d'applications de nouvelle génération. Donc, quiconque est intéressé à apprendre tous les aspects de Docker devrait
+et a réellement un impact sur le développement d'applications de nouvelle génération. Donc, quiconque est intéressé à apprendre tous les aspects de Docker devrait
  
- suivre ce tutoriel.
+suivre ce tutoriel.
 
 # Prerequisites:
 

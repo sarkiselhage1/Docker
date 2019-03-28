@@ -4,6 +4,7 @@ MongoDB est une célèbre base de données orientée document utilisée par de n
 Nous allons maintenant voir les différentes étapes pour obtenir le conteneur Docker pour MongoDB opérationnel.
 
 Étape 1 - La première étape consiste à extraire l’image de Docker Hub. Lorsque vous vous connecterez à Docker Hub, vous pourrez rechercher et voir l'image de Mongo comme indiqué ci-dessous. Il suffit de taper Mongo dans le champ de recherche et de cliquer sur le lien Mongo (officiel) qui apparaît dans les résultats de la recherche.
+
 ![](1.jpg)
 
 Étape 2 - Vous verrez que la commande d'extraction Docker pour Mongo figure dans les détails du référentiel de Docker Hub.
@@ -13,6 +14,7 @@ Nous allons maintenant voir les différentes étapes pour obtenir le conteneur D
 Étape 3 - Sur l’hôte Docker, utilisez la commande Docker comme indiqué ci-dessus pour télécharger la dernière image Mongo à partir de Docker Hub.
 
 ![](3.jpg)
+
 ![](4.jpg)
 
 Étape 4 - Maintenant que nous avons l'image pour Mongo, commençons par exécuter un conteneur MongoDB qui sera notre instance pour MongoDB. Pour cela, nous allons émettre la commande suivante -
@@ -73,9 +75,10 @@ Les points suivants doivent être notés à propos de la commande ci-dessus
 Une fois que vous avez exécuté la commande, vous serez alors connecté à la base de données MongoDB.
 
 ![](8.jpg)
+
 Vous pouvez ensuite exécuter n'importe quelle commande MongoDB à l'invite de commande. Dans notre exemple, nous exécutons la commande suivante -
 
-''' use demo
+use demo
 
 Cette commande est une commande MongoDB utilisée pour passer à une démo de nom de base de données. Si la base de données n'est pas disponible, elle sera créée.
 

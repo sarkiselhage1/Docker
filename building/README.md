@@ -5,10 +5,15 @@ Dans notre exemple, nous allons utiliser le serveur Web Apache sur Ubuntu pour c
 Étape 1 - La première étape consiste à créer notre fichier Docker. Utilisons vim et créons un fichier Docker avec les informations suivantes.
 
 FROM ubuntu 
+
 RUN apt-get update 
+
 RUN apt-get install –y apache2 
+
 RUN apt-get install –y apache2-utils 
+
 RUN apt-get clean 
+
 EXPOSE 80 CMD [“apache2ctl”, “-D”, “FOREGROUND”]
 
 Les points suivants doivent être notés à propos des déclarations ci-dessus -
@@ -35,12 +40,15 @@ Maintenant que les détails du fichier ont été entrés, enregistrez simplement
 Étape 2 - Exécutez la commande de compilation Docker pour générer le fichier Docker. Cela peut être fait en utilisant la commande suivante -
 
 sudo docker build –t = ”mywebserver”.
+
 Nous étiquetons notre image en tant que mywebserver. Une fois l'image créée, vous recevrez un message indiquant que le fichier a été créé.
 
 ![](2.jpeg)
+
 Étape 3 - Le fichier du serveur Web étant maintenant créé, il est maintenant temps de créer un conteneur à partir de l'image. Nous pouvons le faire avec la commande d'exécution Docker.
 
 sudo docker run –d –p 80:80 mywebserver 
+
 ![](3.jpeg)
 
 Les points suivants doivent être notés à propos de la commande ci-dessus -

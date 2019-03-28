@@ -1,6 +1,6 @@
 ImageID - Il s'agit de l'ID d'image pour lequel vous souhaitez voir toutes les commandes qui ont été exécutées.
 
-![](1.jpeg)
+![](1.jpg)
 
 * Le serveur est le serveur physique utilisé pour héberger plusieurs machines virtuelles.
 * Le système d'exploitation hôte est la machine de base telle que Linux ou Windows.
@@ -10,7 +10,7 @@ ImageID - Il s'agit de l'ID d'image pour lequel vous souhaitez voir toutes les c
 
 L'image suivante montre la nouvelle génération de virtualisation activée via les dockers. Regardons les différentes couches.
 
-![](2.jpeg)
+![](2.jpg)
 
 * Le serveur est le serveur physique utilisé pour héberger plusieurs machines virtuelles. Donc, cette couche reste la même.
 * Le système d'exploitation hôte est la machine de base telle que Linux ou Windows. Donc, cette couche reste la même.

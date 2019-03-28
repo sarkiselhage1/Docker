@@ -1,7 +1,9 @@
 Les référentiels publics peuvent être utilisés pour héberger des images Docker pouvant être utilisées par tout le monde. Les images disponibles dans Docker Hub en sont un exemple. La plupart des images telles que Centos, Ubuntu et Jenkins sont toutes accessibles au public. Nous pouvons également rendre nos images disponibles en les publiant dans le référentiel public de Docker Hub.
 
 Pour notre exemple, nous allons utiliser le référentiel myimage construit dans le chapitre "Construction de fichiers Docker" et télécharger cette image sur Docker Hub. Commençons par examiner les images de notre hôte Docker pour voir ce que nous pouvons transmettre au registre Docker.
+
 ![](1.jpg)
+
 Ici, nous avons notre image myimage: 0.1 qui a été créée dans le cadre du chapitre «Créer des fichiers Docker». Utilisons ceci pour charger dans le référentiel public de Docker.
 
 Les étapes suivantes expliquent comment télécharger une image dans un référentiel public.
@@ -22,20 +24,20 @@ La commande pull qui sera utilisée dans notre référentiel est la suivante:
 
 docker pull demousr / demorep
 
-##Étape 3 - Revenez maintenant à l'hôte Docker. Ici, nous devons associer notre image au nouveau référentiel créé dans Docker Hub. Nous pouvons le faire via la commande Docker tag.
+## Étape 3 - Revenez maintenant à l'hôte Docker. Ici, nous devons associer notre image au nouveau référentiel créé dans Docker Hub. Nous pouvons le faire via la commande Docker tag.
 
 Nous en apprendrons plus sur cette commande de balise plus tard dans ce chapitre.
 
-##Étape 4 - Lancez la commande de connexion Docker pour vous connecter au référentiel Docker Hub à partir de l'invite de commande. La commande de connexion de Docker vous invite à entrer le nom d'utilisateur et le mot de passe dans le référentiel de Docker Hub.
+## Étape 4 - Lancez la commande de connexion Docker pour vous connecter au référentiel Docker Hub à partir de l'invite de commande. La commande de connexion de Docker vous invite à entrer le nom d'utilisateur et le mot de passe dans le référentiel de Docker Hub.
 
 ![](5.jpg)
 
-##Étape 5 - Une fois l’image étiquetée, il est maintenant temps de l’afficher dans le référentiel Docker Hub. Nous pouvons le faire via la commande push de Docker. Nous en apprendrons plus sur cette commande plus tard dans ce chapitre.
+## Étape 5 - Une fois l’image étiquetée, il est maintenant temps de l’afficher dans le référentiel Docker Hub. Nous pouvons le faire via la commande push de Docker. Nous en apprendrons plus sur cette commande plus tard dans ce chapitre.
 
 étiquette de docker
 Cette méthode permet de marquer une image dans le référentiel approprié.
 
-##Syntaxe
+## Syntaxe
 
 docker tag imageID nom du référentiel
 

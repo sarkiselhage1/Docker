@@ -1,8 +1,10 @@
 
 Docker dispose de mécanismes de journalisation qui peuvent être utilisés pour résoudre les problèmes au fur et à mesure qu'ils surviennent. Il existe une journalisation au niveau du démon et du conteneur. Examinons les différents niveaux de journalisation.
+
 ## Daemon Logging
 
 Au niveau de "Daemon Logging", il existe quatre niveaux de journalisation disponibles:
+
 * Debug - Il détaille toutes les informations possibles traitées par le processus démon.
 
 * Info - Il détaille toutes les erreurs et les informations gérées par le processus démon.

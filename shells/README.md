@@ -1,5 +1,7 @@
 Par défaut, lorsque vous lancez un conteneur, vous utiliserez également une commande shell lors du lancement du conteneur, comme indiqué ci-dessous. C'est ce que nous avons vu dans les chapitres précédents lorsque nous travaillions avec des conteneurs.
+
 ![](1.jpeg)
+
 Dans la capture d'écran ci-dessus, vous pouvez constater que nous avons émis la commande suivante -
 ### sudo docker run –it centos /bin/bash 
 Nous avons utilisé cette commande pour créer un nouveau conteneur, puis la commande Ctrl + P + Q pour sortir du conteneur. Cela garantit que le conteneur existe toujours, même après sa sortie du conteneur.
@@ -12,8 +14,10 @@ Avant d'exécuter la commande nsenter, vous devez d'abord installer l'image nsen
 ### docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
 
 ![](2.jpeg)
+
 Avant d'utiliser la commande nsenter, nous devons obtenir l'ID de processus du conteneur, car cela est requis par la commande nsenter. Nous pouvons obtenir l'ID de processus via la commande d'inspection Docker et le filtrer via le Pid.
 ![](3.jpeg)
+
 Comme indiqué dans la capture d'écran ci-dessus, nous avons d'abord utilisé la commande docker ps pour afficher les conteneurs en cours d'exécution. Nous pouvons voir qu'il existe un conteneur en cours d'exécution avec l'ID de ef42a4c5e663.
 
 Nous utilisons ensuite la commande Docker inspect pour inspecter la configuration de ce conteneur, puis nous utilisons la commande grep pour filtrer simplement l'ID de processus. Et à la sortie, nous pouvons voir que l'ID de processus est 2978.
@@ -27,6 +31,7 @@ Cette méthode permet de s’attacher à un conteneur sans quitter le conteneur.
 nsenter –m –u –n –p –i –t commandeID conteneur
 
 # Les options
+
 * -u est utilisé pour mentionner l'espace de noms Uts
 
 * -m est utilisé pour mentionner l'espace de noms de montage

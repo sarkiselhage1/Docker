@@ -14,11 +14,11 @@ Notez les points suivants concernant la commande sudo ci-dessus -
 
 * Nous utilisons la commande sudo pour nous assurer qu’elle fonctionne avec un accès root.
 
-*Centos est le nom de l'image que nous voulons télécharger depuis Docker Hub et installer sur notre machine Ubuntu.
+* Centos est le nom de l'image que nous voulons télécharger depuis Docker Hub et installer sur notre machine Ubuntu.
 
-*Il est utilisé pour mentionner que nous voulons fonctionner en mode interactif.
+* Il est utilisé pour mentionner que nous voulons fonctionner en mode interactif.
 
-*/ bin / bash est utilisé pour exécuter le shell bash une fois que CentOS est opérationnel.
+* / bin / bash est utilisé pour exécuter le shell bash une fois que CentOS est opérationnel.
 
 ## Displaying Docker Images
 
