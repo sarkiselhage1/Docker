@@ -14,7 +14,6 @@
 * [Docker - Managing Ports](ports)
 * [Docker - Private Registries](private)
 * [Docker - Building a Web Server Docker File](building)
-* [Docker - Instruction Commands](commands)
 * [Docker - Networking](networking)
 * [Docker - Setting MongoDB](mongo)
 * [Logging](Logging)
