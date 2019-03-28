@@ -59,7 +59,7 @@ Un exemple de sortie de l'exemple ci-dessus est donné ci-dessous.
 docker push
 Cette méthode permet de transférer des images sur le hub Docker.
 
-##Syntaxe
+## Syntaxe
 
 docker push Nom du référentiel
 
@@ -67,11 +67,11 @@ Les options
 
 * Repositoryname - Il s'agit du nom du référentiel qui doit être transféré vers le hub Docker.
 
-##Valeur de retour
+## Valeur de retour
 
 L'ID long du référentiel transféré vers Docker Hub.
 
-##Exemple
+## Exemple
 
 sudo docker push demousr / demorep: 1.0
 

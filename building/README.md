@@ -33,7 +33,7 @@ Les points suivants doivent être notés à propos des déclarations ci-dessus -
 * Enfin, la commande CMD est utilisée pour exécuter apache2 en arrière-plan.
 
 
-![](1.jpeg)
+![](1.jpg)
 
 Maintenant que les détails du fichier ont été entrés, enregistrez simplement le fichier.
 
@@ -43,13 +43,13 @@ sudo docker build –t = ”mywebserver”.
 
 Nous étiquetons notre image en tant que mywebserver. Une fois l'image créée, vous recevrez un message indiquant que le fichier a été créé.
 
-![](2.jpeg)
+![](2.jpg)
 
 Étape 3 - Le fichier du serveur Web étant maintenant créé, il est maintenant temps de créer un conteneur à partir de l'image. Nous pouvons le faire avec la commande d'exécution Docker.
 
 sudo docker run –d –p 80:80 mywebserver 
 
-![](3.jpeg)
+![](3.jpg)
 
 Les points suivants doivent être notés à propos de la commande ci-dessus -
 
@@ -59,4 +59,4 @@ Les points suivants doivent être notés à propos de la commande ci-dessus -
 
 Si vous allez sur le port 80 de l'hôte Docker dans votre navigateur Web, vous verrez maintenant qu'Apache est opérationnel.
 
-![](4.jpeg)
+![](4.jpg)
