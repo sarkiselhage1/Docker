@@ -10,7 +10,6 @@
 * [container&host](container&host)
 * [Containers&Shells](shells)
 * [File](File)
-* [Docker - Building Files](bfile)
 * [Docker - Public Repositories](public)
 * [Docker - Managing Ports](ports)
 * [Docker - Private Registries](private)
